@@ -7,7 +7,7 @@ const state = {
     {name:'car',text:'购物车',icon:'icon-gouwuche'},
     {name:'mine',text:'我的',icon:'icon-wode1'},
   ],
-  home
+
 }
 
 const mutations = {
