@@ -13,8 +13,6 @@
 </template>
 
 <script>
-import {mapState} from 'vuex';
-
 export default {
    data(){
      return {
@@ -27,7 +25,7 @@ export default {
       ])
    },
    created(){
-     console.log(this.navLink)
+     
    }
 }
 </script>
@@ -37,7 +35,8 @@ export default {
  .layout{
    .border{
      height: 90px;
-      @include border-bottom-1px(rgba(7, 17, 27, 0.1)); 
+     border-top: 1px solid #ccc ;/*no*/
+      @include border-bottom-1px(#fff); 
    }
   .footer{
     width: 100%;

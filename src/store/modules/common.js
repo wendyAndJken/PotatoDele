@@ -7,13 +7,18 @@ const state = {
     {name:'car',text:'购物车',icon:'icon-gouwuche'},
     {name:'mine',text:'我的',icon:'icon-wode1'},
   ],
-  home
+  active:0,
 }
 
 const mutations = {
   // [types.SET_USER] (state, user) {
   //   state.userInfo = user
-  // }, 
+  // },
+  
+  [types.IS_ACTIVE] (state, index) {
+    state.active = index
+  },
+
 }
 
 export default {
